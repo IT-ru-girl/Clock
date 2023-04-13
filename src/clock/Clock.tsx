@@ -39,14 +39,11 @@ const Clock = () => {
         <div className={c.block}>
             <span>
                  {updateTime( hour.getHours())} :
-            </span>
-             <span>
+            </span> <span>
                  {updateTime(hour.getMinutes())} :
              </span> <span>
                  {updateTime(hour.getSeconds())}
              </span>
-
-
         </div>
     );
 };
