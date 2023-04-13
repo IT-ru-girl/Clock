@@ -1,5 +1,6 @@
 {
   "name": "clock",
+  "homepage" : "https://it-ru-girl.github.io/Clock/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
