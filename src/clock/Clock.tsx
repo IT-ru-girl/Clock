@@ -39,8 +39,7 @@ const Clock = () => {
         <div className={c.block}>
             <span>
                  {updateTime( date.getHours())} :
-            </span>
-             <span>
+            </span> <span>
                  {updateTime(date.getMinutes())} :
              </span> <span>
                  {updateTime(date.getSeconds())}
